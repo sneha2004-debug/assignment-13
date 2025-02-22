@@ -113,6 +113,15 @@
             height: 40px;
             width: 40px;
         }
+        .card5{
+            margin: 40px;
+            background-color: black;
+            color: white;
+            width: 370px;
+            height: 100px;
+            border: rgb(124, 120, 120) solid 4px;
+            border-radius: 10px 30px 10px 30px;
+        }
     </style>
 </head>
 <body>
@@ -121,35 +130,51 @@
         <a href="cards.html">Cards</a>
     </div>
     <h1>CARDS</h1>
-    <div class="card1">
-        <img src="./imgs/money-plant.jpg" alt="money-plant-img" class="plant">
-        <h1 class="h1">Money Plant</h1>
-        <p class="p1">The money plant (Epipremnum aureum), also known as <span class="bold">Devil’s Ivy</span>, is a popular indoor plant known for its heart-shaped green leaves and air-purifying qualities. </p>
-        <button class="btn1">
-            Know More
-        </button>
-    </div>
-
-    <div class="card2">
-        <img src="https://i.pravatar.cc/150?img=12" alt="" class="employee"> 
-        <h1 class="h1">Peter Dseuza</h1>
-        <h3>Software Engineer</h3>
-        <p>A software engineer is a professional who designs, develops, tests, and maintains software applications and systems.</p>
-        <button class="btn2"><span class="text">Contact</span></button>
-    </div>
-
-    <div class="card3">
-        <img src="./imgs/halloween-day.png" alt="halloween-day-img" class="event">
-        <h1 class="heading">Halloween Week</h1>
-        <p>Date:30 Oct 2k25 &nbsp;&nbsp;&nbsp;Time : 9:00 PM Onwards</p>
-        <button class="btn3">Get Tickets</button>
-    </div>
-
-    <div class="card4">
-        <h1 class="card4-h1">Nashik, India <br>
-            Clear, 9:40 PM</h1>
-        <img src="./imgs/moon.png" alt="moon-img" class="moon">
-        <p style="padding: 20px;margin: 0px 0px 0px 20px; margin: 0px 0px 0px 40px;"><span style="font-size: 30px;">22</span><sup>°F|°C</sup></p>
-    </div>
+    <table>
+        <th>
+            <div class="card1">
+                    <img src="./imgs/money-plant.jpg" alt="money-plant-img" class="plant">
+                    <h1 class="h1">Money Plant</h1>
+                    <p class="p1">The money plant (Epipremnum aureum), also known as <span class="bold">Devil’s Ivy</span>, is a popular indoor plant known for its heart-shaped green leaves and air-purifying qualities. </p>
+                    <button class="btn1">
+                        Know More
+                    </button>
+            </div>
+        </th>
+        <th>
+            <div class="card2">
+                    <img src="https://i.pravatar.cc/150?img=12" alt="" class="employee"> 
+                    <h1 class="h1">Peter Dseuza</h1>
+                    <h3>Software Engineer</h3>
+                    <p>A software engineer is a professional who designs, develops, tests, and maintains software applications and systems.</p>
+                    <button class="btn2"><span class="text">Contact</span></button>
+            </div>
+        </th>    
+        <th>
+            <div class="card3">
+                <img src="./imgs/halloween-day.png" alt="halloween-day-img" class="event">
+                <h1 class="heading">Halloween Week</h1>
+                <p>Date:30 Oct 2k25 &nbsp;&nbsp;&nbsp;Time : 9:00 PM Onwards</p>
+                <button class="btn3">Get Tickets</button>
+            </div>
+        </th> 
+        <tr> 
+            <th>
+                <div class="card4">
+                    <h1 class="card4-h1">Nashik, India <br>
+                        Clear, 9:40 PM</h1>
+                    <img src="./imgs/moon.png" alt="moon-img" class="moon">
+                    <p style="padding: 20px;margin: 0px 0px 0px 20px; margin: 0px 0px 0px 40px;"><span style="font-size: 30px;">22</span><sup>°F|°C</sup></p>
+                </div>
+            </th>
+            <th>
+                <div class="card5">
+                    <h1>"New Launch in 03:45:12"</h1>
+                    <p style="margin: 0px 0px 0px 140px;">"Stay Tuned"</p>
+                </div>
+            </th>
+        </tr>  
+        
+    </table>   
 </body>
 </html>
